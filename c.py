@@ -86,7 +86,7 @@ def compress_images_to_single_pdf(image_paths, output_pdf):
 
 # Define directory path
 home_directory = os.path.expanduser("~")
-directory = os.path.join(home_directory, "Downloads", "imgToPDF", "Images Here")
+directory = os.path.join(home_directory, "Downloads", "image-to-pdf-master", "Images Here")
 
 # List all files in the directory
 files = os.listdir(directory)
